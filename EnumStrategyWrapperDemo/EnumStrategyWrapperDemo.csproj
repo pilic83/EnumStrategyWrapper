@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EnumStrategyWrapper.Attribute\EnumStrategyWrapper.Attribute.csproj" />
+    <ProjectReference Include="..\EnumStrategyWrapper.Enumeration\EnumStrategyWrapper.Enumeration.csproj" />
+    <ProjectReference Include="..\EnumStrategyWrapper\EnumStrategyWrapper.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+  </ItemGroup>
+
+</Project>
