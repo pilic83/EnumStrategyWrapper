@@ -1,6 +1,7 @@
 # EnumStrategyWrapper
 An enumeration strategy wrapper that allows to avoid changing the switch block when you add a new member to an enum.
 All you need to do is decorate the enum with the WrapEnum attribute class and define StrategyProperties or StrategyExecutions (or both) as an array of strings containing the property names of properties that have different values for different enum members. Ditto for StrategyExecutions - an array of strings containing method names of methods that have different implementations for different enum members.<br />
+<br />
 [WrapEnum(StrategyProperties = new[] { "AccessLevel", "Info"}, StrategyExecutions = new[] { "ShowMessage" })]<br />
 public enum User<br />
 {<br />
